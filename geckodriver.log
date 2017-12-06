@@ -1,0 +1,31 @@
+1512543284530	geckodriver	INFO	geckodriver 0.19.1
+1512543284592	geckodriver	INFO	Listening on 127.0.0.1:64681
+1512543285594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/tp/30ww3pjs19s9_pr9g0n3_qxc0000gn/T/rust_mozprofile.AYYDUtPxU9Qi"
+1512543286095	Marionette	INFO	Enabled via --marionette
+2017-12-05 22:54:46.926 plugin-container[36738:2683597] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512543287426	Marionette	INFO	Listening on port 64694
+1512543287498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512543287554	Marionette	DEBUG	Register listener.js for window 2147483649
+1512543287584	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512543287611	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512543287611	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512543287616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1512543287646	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1512544147860	geckodriver	INFO	geckodriver 0.19.1
+1512544147917	geckodriver	INFO	Listening on 127.0.0.1:52445
+1512544148934	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/tp/30ww3pjs19s9_pr9g0n3_qxc0000gn/T/rust_mozprofile.FjsOp9317dKC"
+1512544149354	Marionette	INFO	Enabled via --marionette
+2017-12-05 23:09:10.069 plugin-container[36917:2698514] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb03b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512544150504	Marionette	INFO	Listening on port 52462
+1512544150598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512544150647	Marionette	DEBUG	Register listener.js for window 2147483649
+1512544150667	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512544150689	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512544150689	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512544150694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1512544150720	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1512544150775	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
